@@ -205,9 +205,7 @@ def gifid(update: Update, context: CallbackContext):
         update.effective_message.reply_text("ᴘʟᴇᴀsᴇ ʀᴇᴘʟʏ ᴛᴏ ᴀ ɢɪғ ᴛᴏ ɢᴇᴛ ɪᴛs ɪᴅ.")
 
 
-def info(update: Update, context: CallbackContext):
-    bot, args = context.bot, context.args
-    message =
+
 def about_me(update: Update, context: CallbackContext):
     bot, args = context.bot, context.args
     message = update.effective_message
