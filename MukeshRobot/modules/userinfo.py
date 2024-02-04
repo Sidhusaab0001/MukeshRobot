@@ -406,7 +406,6 @@ __command_list__ = ["setbio", "bio", "setme", "me"]
 __handlers__ = [
     ID_HANDLER,
     GIFID_HANDLER,
-    INFO_HANDLER,
     SET_BIO_HANDLER,
     GET_BIO_HANDLER,
     SET_ABOUT_HANDLER,
