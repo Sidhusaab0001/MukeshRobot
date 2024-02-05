@@ -587,13 +587,13 @@ Yᴏᴜ ᴄᴀɴ ʜᴇʟᴘ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴡɪᴛʜ 
             reply_markup=InlineKeyboardMarkup(
                 [ [
         InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="🛡️", callback_data="mukesh_"),
+        InlineKeyboardButton(text="🛡️", callback_data="mukesh_support"),
         InlineKeyboardButton(text="💳", callback_data="source_"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
      ],
                     [
-                        InlineKeyboardButton(text="• Dᴏɴᴀᴛᴇ •", url="https://t.me/mukeshbotzone/7"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="mukesh_support")
+                        InlineKeyboardButton(text="• Dᴏɴᴀᴛᴇ •", url="t.me/X_SIDHU"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="mukesh_support")
                     ]
                 ]
             ),
@@ -627,7 +627,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
                 ],
                  [
         InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="🛡️", callback_data="mukesh_"),
+        InlineKeyboardButton(text="🛡️", callback_data="mukesh_support"),
         InlineKeyboardButton(text="💳", callback_data="source_"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
@@ -657,7 +657,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
                 [
                     [
         InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="🛡️", callback_data="mukesh_"),
+        InlineKeyboardButton(text="🛡️", callback_data="mukesh_support"),
         InlineKeyboardButton(text="💳", callback_data="source_"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
@@ -1068,8 +1068,8 @@ def main():
                 [
                     [
                         InlineKeyboardButton(
-                            text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ➕",
-                            url="https://t.me/groupcontrollertgbot?startgroup=true"
+                            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ",
+                            url="https://t.me/{dispatcher.bot.username}?startgroup=true"
                             )
                        ]
                 ]
