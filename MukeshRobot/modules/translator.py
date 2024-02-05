@@ -103,5 +103,53 @@ async def repo(client, message):
             ]
         ),
     )
+from platform import python_version as y
 
+from pyrogram import __version__ as z
+from pyrogram import filters
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from telegram import __version__ as o
+from telethon import __version__ as s
+
+from MukeshRobot import OWNER_ID, dispatcher
+from MukeshRobot import pbot as client
+
+Mukesh = "https://graph.org/file/310a6dd4278e33ddbe3cc.jpg"
+
+elif query.data == "source_code":
+        query.message.edit_caption("๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴩ ᴀɴᴅ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀ"
+            f"\n\nɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ɪɴ {dispatcher.bot.first_name} ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ɢɪᴠᴇ ғᴇᴇᴅʙᴀᴄᴋ ᴀʙᴏᴜᴛ ᴛʜᴇ {dispatcher.bot.first_name}, ᴩʟᴇᴀsᴇ ʀᴇᴩᴏʀᴛ ɪᴛ ᴀᴛ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ.",
+            parse_mode=ParseMode.MARKDOWN,
+            reply_markup=InlineKeyboardMarkup(
+                [
+                    [
+        InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
+        InlineKeyboardButton(text="🛡️", callback_data="mukesh_support"),
+        InlineKeyboardButton(text="💳", callback_data="source_"),
+        InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
+     ],
+                    [
+                        InlineKeyboardButton(
+                            text="🏡 sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
+                        ),
+                        InlineKeyboardButton(
+                            text="ᴅᴘᴢ ᴄʜᴀɴɴᴇʟ 🍷", url=f"t.me/Girls_Boys_Dpz_Store"
+                        ),
+                    ],
+                    [
+                        InlineKeyboardButton(
+                            text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
+                        ),
+                        InlineKeyboardButton(
+                            text="sᴛʏʟɪsʜ ɴᴀᴍᴇ 🍹", url=f"https://t.me/Stylish_Name_Bio"
+                        ),
+                    ],
+                    [
+                        InlineKeyboardButton(text="◁", callback_data="mukesh_back"),
+                    ],
+                ]
+            ),
+)
+        
 
