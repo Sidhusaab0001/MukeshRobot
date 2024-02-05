@@ -103,20 +103,10 @@ async def repo(client, message):
             ]
         ),
     )
-from platform import python_version as y
 
-from pyrogram import __version__ as z
-from pyrogram import filters
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from telegram import __version__ as o
-from telethon import __version__ as s
-
-from MukeshRobot import OWNER_ID, dispatcher
-from MukeshRobot import pbot as client
-
-Mukesh = "https://graph.org/file/310a6dd4278e33ddbe3cc.jpg"
 
 elif query.data == "source_code":
+Mukesh = "https://graph.org/file/310a6dd4278e33ddbe3cc.jpg"
         query.message.edit_caption("๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴩ ᴀɴᴅ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀ"
             f"\n\nɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ɪɴ {dispatcher.bot.first_name} ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ɢɪᴠᴇ ғᴇᴇᴅʙᴀᴄᴋ ᴀʙᴏᴜᴛ ᴛʜᴇ {dispatcher.bot.first_name}, ᴩʟᴇᴀsᴇ ʀᴇᴩᴏʀᴛ ɪᴛ ᴀᴛ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ.",
             parse_mode=ParseMode.MARKDOWN,
