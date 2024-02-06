@@ -14,6 +14,8 @@ from telethon.utils import get_display_name, get_peer_id
 
 from MukeshRobot.events import register
 
+import base64
+
 ##api
 
 try:
