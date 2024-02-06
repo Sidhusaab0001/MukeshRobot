@@ -604,8 +604,9 @@ def Source_about_callback(update: Update, context: CallbackContext):
     if query.data == "source_":
         query.message.edit_caption(
             f"""
-*ʙsᴅᴋ ᴘᴇʜʟᴇ [sɪᴅʜᴜ](t.me/X_SIDHU) ᴋᴏ ɢᴀɴᴅ ᴍʀᴀ ғʀ ᴍɪʟᴇɢɪ ʀᴇᴘᴏ*
+*ʙsᴅᴋ ᴘᴇʜʟᴇ* [sɪᴅʜᴜ](t.me/X_SIDHU) *ᴋᴏ ɢᴀɴᴅ ᴍʀᴀ ғʀ ᴍɪʟᴇɢɪ ʀᴇᴘᴏ*
 """,
+            Mukesh = "https://graph.org/file/310a6dd4278e33ddbe3cc.jpg"
             parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
