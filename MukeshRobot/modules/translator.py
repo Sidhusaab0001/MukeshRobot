@@ -96,9 +96,8 @@ async def repo(client, message):
                         "• ᴏᴡɴᴇʀ ",user_id=OWNER_ID
                     ),
                     InlineKeyboardButton(
-                        "• ʀᴇᴘᴏ •",
-                        url=f"t.me/jsbsk",
-                    ),
+                        "• ʀᴇᴘᴏ •", callback_data="source_"
+                        ),
                 ]
             ]
         ),
