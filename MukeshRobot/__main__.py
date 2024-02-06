@@ -99,7 +99,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="🪄 sᴏᴜʀᴄᴇ 🪄", callback_data="sidhu_source"),
+        InlineKeyboardButton(text="🪄 sᴏᴜʀᴄᴇ 🪄", callback_data="source_"),
     ],
     
 
@@ -443,20 +443,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                 ]
             ),
         )
-        elif query.data=="sidhu_source":
-        query.message.edit_caption("[ʟᴜɴᴅ ʟᴇʟᴏ ʙsᴅᴋ](tg://settings)"
-            
-            parse_mode=ParseMode.MARKDOWN,
-            
-            reply_markup=InlineKeyboardMarkup(
-                [
-                 
-                    [
-                        InlineKeyboardButton(text="◁", callback_data="mukesh_back"),
-                    ],
-                ]
-            ),
-        )
+        
     elif query.data == "mukesh_back":
         first_name = update.effective_user.first_name 
         query.message.edit_caption(PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME,sql.num_users(),sql.num_chats()),
