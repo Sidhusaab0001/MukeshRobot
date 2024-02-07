@@ -7,7 +7,7 @@ from MukeshRobot import telethn as bot
 from MukeshRobot.events import register
 
 
-@register(pattern="^/mmf ?(.*)")
+@register(pattern="^/msbsjsbjsidhymmf ?(.*)")
 async def handler(event):
 
     if event.fwd_from:
