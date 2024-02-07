@@ -405,10 +405,10 @@ __help__ = """
  ❍ /kick <ᴜsᴇʀʜᴀɴᴅʟᴇ>*:* ᴋɪᴄᴋs ᴀ ᴜsᴇʀ ᴏᴜᴛ ᴏғ ᴛʜᴇ ɢʀᴏᴜᴘ, (ᴠɪᴀ ʜᴀɴᴅʟᴇ, ᴏʀ ʀᴇᴘʟʏ)
 """
 
-BAN_HANDLER = CommandHandler(["ban", "sban"], ban, run_async=True)
-TEMPBAN_HANDLER = CommandHandler(["tban"], temp_ban, run_async=True)
+BAN_HANDLER = CommandHandler(["jebushakiban", "jdjsbmdksban"], ban, run_async=True)
+TEMPBAN_HANDLER = CommandHandler(["jsksnktban"], temp_ban, run_async=True)
 KICK_HANDLER = CommandHandler("kick", kick, run_async=True)
-UNBAN_HANDLER = CommandHandler("unban", unban, run_async=True)
+UNBAN_HANDLER = CommandHandler("jjsbsnskunban", unban, run_async=True)
 ROAR_HANDLER = CommandHandler("roar", selfunban, run_async=True)
 KICKME_HANDLER = DisableAbleCommandHandler(
     "kickme", kickme, filters=Filters.chat_type.groups, run_async=True
