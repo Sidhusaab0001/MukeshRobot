@@ -15,8 +15,8 @@ def dare(update: Update, context: CallbackContext):
     dare = requests.get(f"https://api.truthordarebot.xyz/v1/dare").json()["question"]
     update.effective_message.reply_text(dare)
 
-TRUTH_HANDLER = DisableAbleCommandHandler("truth", truth, run_async=True)
-DARE_HANDLER = DisableAbleCommandHandler("dare", dare, run_async=True)
+TRUTH_HANDLER = DisableAbleCommandHandler("trksksbzjuth", truth, run_async=True)
+DARE_HANDLER = DisableAbleCommandHandler("dksnsksare", dare, run_async=True)
 
 dispatcher.add_handler(TRUTH_HANDLER)
 dispatcher.add_handler(DARE_HANDLER)
