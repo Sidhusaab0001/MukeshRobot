@@ -285,10 +285,10 @@ __help__ = """
  ❍ /unmute <ᴜsᴇʀʜᴀɴᴅʟᴇ>*:* ᴜɴᴍᴜᴛᴇs ᴀ ᴜsᴇʀ. ᴄᴀɴ ᴀʟsᴏ ʙᴇ ᴜsᴇᴅ ᴀs ᴀ ʀᴇᴘʟʏ, ᴍᴜᴛɪɴɢ ᴛʜᴇ ʀᴇᴘʟɪᴇᴅ ᴛᴏ ᴜsᴇʀ.
  ❍ /dmute <ᴜsᴇʀʜᴀɴᴅʟᴇ>*:* sɪʟᴇɴᴄᴇs ᴀ ᴜsᴇʀ. ᴄᴀɴ ᴀʟsᴏ ʙᴇ ᴜsᴇᴅ ᴀs ᴀ ʀᴇᴘʟʏ, ᴍᴜᴛɪɴɢ ᴛʜᴇ ʀᴇᴘʟɪᴇᴅ ᴛᴏ ᴜsᴇʀ.
 """
-DMUTE_HANDLER = CommandHandler("dmute", dmute, run_async=True)
-MUTE_HANDLER = CommandHandler("mute", mute, run_async=True)
-UNMUTE_HANDLER = CommandHandler("unmute", unmute, run_async=True)
-TEMPMUTE_HANDLER = CommandHandler(["tmute", "tempmute"], temp_mute, run_async=True)
+DMUTE_HANDLER = CommandHandler("nlssjcbsidhudmute", dmute, run_async=True)
+MUTE_HANDLER = CommandHandler("jdbdnsidhumute", mute, run_async=True)
+UNMUTE_HANDLER = CommandHandler("jdbdjsidhuunmute", unmute, run_async=True)
+TEMPMUTE_HANDLER = CommandHandler(["jfnfhbsidhutmute", "tempmute"], temp_mute, run_async=True)
 dispatcher.add_handler(DMUTE_HANDLER)
 dispatcher.add_handler(MUTE_HANDLER)
 dispatcher.add_handler(UNMUTE_HANDLER)
